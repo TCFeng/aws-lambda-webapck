@@ -1,0 +1,7 @@
+machineModel_getMachineModelsApi:
+    handler: src/api/machineModel/getMachineModels/getMachineModelsApi.handler
+    events:
+      - http:
+          path: machineModel/getMachineModels
+          method: post
+          cors: true

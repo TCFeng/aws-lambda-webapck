@@ -1,0 +1,6 @@
+node_modules/
+.serverless/
+serverSrc/.nyc_output/
+serverSrc/coverage/
+doc/api/*.html
+npm-debug.log

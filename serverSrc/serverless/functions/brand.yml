@@ -1,0 +1,7 @@
+brand_addBrand:
+    handler: src/api/brand/addBrand/addBrandApi.handler
+    events:
+      - http:
+          path: brand/addBrand
+          method: post
+          cors: true
